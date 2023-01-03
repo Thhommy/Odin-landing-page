@@ -1,0 +1,58 @@
+
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: roboto;
+    justify-content: space-between;
+}
+
+.header{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.rest-of-header{
+    display: flex;
+}
+
+.testimonial{
+    background-color: #e5e7eb;
+}
+
+.links{
+    display: flex;
+    gap: 16px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white
+}
